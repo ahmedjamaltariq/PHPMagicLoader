@@ -7,7 +7,7 @@ Advantages :
 2) You don't to replace the backward slashes with forward slashes in the path string.
 
 How to use:
-1) Require it your main file, typically index.php file. The inclusion of PHPMagicLoader class isn't counted as lines of code to this magic facility.
+1) Require it in your main file, typically index.php file. The inclusion of PHPMagicLoader class isn't counted as lines of code to this magic facility.
 
 require('PHPMagicMethod\autoload');
 
