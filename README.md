@@ -1,6 +1,6 @@
 # PHPMagicLoader
 Best and rapid Autoloader class for PHP which finds the libraries in whole project root directory and loads them in a very fast and efficient manner.
-This class is developed by **Ahmed Jamal Tariq, CTO at Divstack Technologies, Pakistan
+This class is developed by **Ahmed Jamal Tariq, CTO at Divstack Technologies, Pakistan**
 
 # Advantages :
 1) You don't have to remember the exact of your direcotry for loading it in your main file or class.
