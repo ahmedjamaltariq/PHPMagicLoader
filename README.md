@@ -13,14 +13,9 @@ This class is developed by **Ahmed Jamal Tariq, CTO at Divstack Technologies, Pa
 require('PHPMagicMethod\autoload');
 ```
 
-2) Create an instance of it and pass the named of file in paramter.
+2) Create an instance of it and pass the names of files in paramter with a '|' as a separator. *Note: [Just Copy and Paste below two lines and pass the names of your files accordingly]*
 
 ```php
-$library = new Autoloader('name of the library');
-```
-
-3) At last require it.
-
-```php
-require($library->path);
+$libraries = new Autoloader('employees.php|company.php');
+foreach ($libraries->paths as $library) { require($library);}
 ```
