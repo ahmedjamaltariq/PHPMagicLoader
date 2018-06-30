@@ -9,12 +9,18 @@ This class is developed by Ahmed Jamal Tariq, CTO at Divstack Technologies, Paki
 # How to use:
 1) Require it in your main file, typically index.php file. The inclusion of PHPMagicLoader class isn't counted as lines of code to this magic facility.
 
+```php
 require('PHPMagicMethod\autoload');
+```
 
 2) Create an instance of it and pass the named of file in paramter.
 
-$library = new Autoloader('named of library');
+```php
+$library = new Autoloader('name of the library');
+```
 
 3) At last require it.
 
+```php
 require($library->path);
+```
