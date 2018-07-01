@@ -14,7 +14,7 @@ Just download and extract the **PHPMagicLoader.zip** file in your project folder
 1) Require it in your main file, typically *index.php* file. The inclusion of **PHPMagicLoader** class isn't counted as lines of code to this magic facility.
 
 ```php
-require('PHPMagicLoader\autoload');
+require('PHPMagicLoader\MagicLoad.php');
 ```
 
 2) Create an instance of it and pass the names of files in paramter with a '|' as a separator. *Note: [Just Copy and Paste below two lines and pass the names of your files accordingly]*
