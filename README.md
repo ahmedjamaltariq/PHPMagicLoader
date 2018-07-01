@@ -4,7 +4,7 @@ Best and rapid Autoloader class for PHP which finds the libraries in whole proje
 This class is developed by **Ahmed Jamal Tariq, CTO at Divstack Technologies, Pakistan**
 
 # Advantages :
-1) You don't have to remember the exact of your direcotry for loading it in your main file or class.
+1) You don't have to remember the exact path of library *(where ever it is in project folder)* for loading it.
 2) You don't to replace the backward slashes with forward slashes in the path string.
 
 # How to install :
