@@ -19,6 +19,6 @@ require('PHPMagicLoader\autoload');
 2) Create an instance of it and pass the names of files in paramter with a '|' as a separator. *Note: [Just Copy and Paste below two lines and pass the names of your files accordingly]*
 
 ```php
-$libraries = new Autoloader('employees.php|company.php');
+$libraries = new MagicLoad('employees.php|company.php');
 foreach ($libraries->paths as $library) { require($library);}
 ```
